@@ -6,8 +6,10 @@ public class Main {
         float b = 2;
         float s = Calcolatrice.somma(a,b);
         float d = Calcolatrice.diff(a,b);
-        float m = Calcolatrice.molt(a,b);
         float q = Calcolatrice.div(a,b);
+        float m = Calcolatrice.media(a,b);
+        float p = Calcolatrice.pot(a,b);
+        System.out.println(q);
 
     }
 
